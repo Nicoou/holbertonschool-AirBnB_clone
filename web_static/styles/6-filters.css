@@ -44,35 +44,29 @@
   border-right: 1px solid #DDDDDD;
 }
 
-.popover{
-  list-style: none;
-  visibility: hidden;
+.popover {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
   background-color: #FAFAFA;
-  border-radius: 4px;
+  width: 100%;
   border: 1px solid #DDDDDD;
-  padding: 0 0 20px 0;
-  width: 100px;
-  margin-top: 17.43px;
+  border-radius: 4px;
 }
 
-.popover li h2{
-  margin-left: 15px;
-  margin-bottom: 5px;
-  font-size: 16px;
+.locations:hover .popover,
+.amenities:hover .popover {
+  display: block;
 }
 
-.popover li ul li{
-  list-style: none;
-  margin-left: 3px;
-  margin-bottom: 3px;
+.popover ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.amenities .popover{
-  padding: 20px 0px 20px 20px;
-}
-
-.amenities .popover{
-  margin-left: 15px;
-  margin-bottom: 5px;
-  font-size: 16px;
+.popover ul li {
+  padding: 10px;
+  cursor: pointer;
 }
