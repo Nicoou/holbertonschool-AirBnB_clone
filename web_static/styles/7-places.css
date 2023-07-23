@@ -6,6 +6,7 @@
 .places h1{
   font-size: 30px;
   text-align: left;
+  margin-bottom: 0;
 }
 
 .places article{
